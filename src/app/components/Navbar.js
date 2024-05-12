@@ -1,19 +1,12 @@
 import React from "react";
-import { FaInfinity } from "react-icons/fa";
+import { FaInfinity } from "react-icons/fa6";
 import { FaSearch } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <div
-      class="
-      antialiased
-      bg-gradient-to-r
-      from-pink-300
-      via-purple-300
-      to-indigo-400
-    "
-    >
+    <div class="px-[80px] bg-black">
       <header>
         <nav
           class="
@@ -25,13 +18,13 @@ const Navbar = () => {
           md:py-0
           px-4
           text-lg text-gray-700
-          bg-white
+          bg-black
         "
         >
           <div>
-            <a href="#" class="flex justify-center items-center gap-[10px]">
-              <FaInfinity />
-              Anime
+            <a href="#" class="flex justify-center items-center">
+              <FaInfinity size={30} />
+              Anime.
             </a>
           </div>
           <svg
@@ -95,7 +88,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  class="md:p-4 py-2 block hover:text-purple-400 text-purple-500 uppercase"
+                  class="md:p-4 py-2 block hover:text-purple-400 uppercase"
                   href="#family"
                 >
                   family
@@ -103,7 +96,8 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div class="nav-icons flex gap-[30px]">
+          <div class="nav-icons flex gap-[20px]">
+            <FaBars />
             <FaSearch />
             <FaHeart />
           </div>
