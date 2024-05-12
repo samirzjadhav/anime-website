@@ -1,5 +1,7 @@
 import React from "react";
 import { FaInfinity } from "react-icons/fa";
+import { FaSearch } from "react-icons/fa";
+import { FaHeart } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -100,6 +102,10 @@ const Navbar = () => {
                 </a>
               </li>
             </ul>
+          </div>
+          <div class="nav-icons flex gap-[30px]">
+            <FaSearch />
+            <FaHeart />
           </div>
         </nav>
       </header>
