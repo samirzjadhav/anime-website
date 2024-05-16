@@ -97,12 +97,21 @@ const Navbar = () => {
             </ul>
           </div>
           <div class="nav-icons flex gap-[20px]">
-            <FaBars />
-            <FaSearch />
+            <FaBars id="menu-bar" />
+            <FaSearch id="search-icon" />
             <FaHeart />
           </div>
         </nav>
       </header>
+      <section className="home" id="home">
+        <div className="home-slider">
+          <div className="wrapper">
+            <div className="slider">
+              <div className="box"></div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
