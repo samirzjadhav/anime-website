@@ -103,15 +103,6 @@ const Navbar = () => {
           </div>
         </nav>
       </header>
-      <section className="home" id="home">
-        <div className="home-slider">
-          <div className="wrapper">
-            <div className="slider">
-              <div className="box"></div>
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
   );
 };
